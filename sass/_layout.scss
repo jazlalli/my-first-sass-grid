@@ -11,6 +11,13 @@ img {
   max-width: 100%;
   height: auto !important;
 }
+ul {
+  list-style-type: none;
+}
+p.ad {
+  background-color: yellow;
+  margin: 5px auto;
+}
 .wrapper {
   width: 100%;
   margin: 0 auto;
@@ -24,6 +31,7 @@ img {
   padding: 0.5em;
   width: 100%;
   min-height: 1px;
+  border: 1px solid salmon;
 }
 @media #{$breakpoint-medium} {
   .wrapper {

@@ -1,0 +1,21 @@
+{
+  "name": "sass-grid",
+  "version": "0.0.1",
+  "description": "Demo project to build a grid system from scratch",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "sass --watch ./sass/grid.scss:./public/grid.css",
+    "build": "sass ./sass/grid.scss:./public/grid.css",
+    "start": "npm run build && http-server"
+  },
+  "keywords": [
+    "grid",
+    "sass"
+  ],
+  "author": "Jaz Lalli",
+  "license": "MIT"
+}
